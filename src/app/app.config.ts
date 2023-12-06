@@ -6,7 +6,7 @@ import { collectionsRoutes } from './collections/collections-routing.module';
 
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes),
-  provideRouter(elementsRoutes),
-  provideRouter(collectionsRoutes)]
+  providers: [provideRouter(elementsRoutes),
+    provideRouter(collectionsRoutes), 
+    provideRouter(routes),]
 };
