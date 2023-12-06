@@ -7,7 +7,7 @@ import { CollectionsModule } from './collections/collections.module';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, ElementsModule, CollectionsModule, RouterOutlet,RouterModule],
+  imports: [CommonModule, ElementsModule, CollectionsModule, RouterOutlet, RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
