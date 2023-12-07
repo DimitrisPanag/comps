@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { PlaceholderComponent } from '../placeholder/placeholder.component';
 import { SharedModule } from '../../shared/shared.module';
+import { SegmentComponent } from '../segment/segment.component';
 
 @Component({
   selector: 'app-elements-home',
   standalone: true,
-  imports: [PlaceholderComponent, SharedModule],
+  imports: [PlaceholderComponent, SegmentComponent, SharedModule],
   templateUrl: './elements-home.component.html',
   styleUrl: './elements-home.component.css'
 })
