@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { TableComponent } from '../table/table.component';
 import { SharedModule } from '../../shared/shared.module';
 import { CommonModule } from '@angular/common';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-collections-home',
   standalone: true,
-  imports: [CommonModule, SharedModule, TableComponent],
+  imports: [CommonModule, SharedModule, RouterModule, RouterOutlet,
+    TableComponent],
   templateUrl: './collections-home.component.html',
   styleUrl: './collections-home.component.css'
 })
