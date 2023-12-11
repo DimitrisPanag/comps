@@ -11,9 +11,11 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ItemsListComponent {
   @Input() items = [] as any[];
 
-  constructor() {}
+  constructor() {
+    
+  }
 
   ngOnInit() {
-
+    
   }
 }
