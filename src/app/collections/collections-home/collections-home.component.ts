@@ -3,12 +3,13 @@ import { TableComponent } from '../table/table.component';
 import { SharedModule } from '../../shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
+import { TabsComponent } from '../tabs/tabs.component';
 
 @Component({
   selector: 'app-collections-home',
   standalone: true,
   imports: [CommonModule, SharedModule, RouterModule, RouterOutlet,
-    TableComponent],
+    TableComponent, TabsComponent],
   templateUrl: './collections-home.component.html',
   styleUrl: './collections-home.component.css'
 })
